@@ -43,8 +43,8 @@ def compress_tiff_stack(input_folder, output_file, resize_factor=None, bit_depth
     print(f"Compressed TIFF stack saved to {output_file}")
 
 
-input_folder = '/home/yuntian/tifzip' 
-output_file6 = 'output7.tiff'  
+input_folder = '/home/yuntian/tifzip' # replace it with your input path
+output_file = 'output7.tiff'  # replace it with your output path
 
 
-compress_tiff_stack(input_folder, output_file6, resize_factor=2, bit_depth_reduction=None)
+compress_tiff_stack(input_folder, output_file, resize_factor=2, bit_depth_reduction=None)
